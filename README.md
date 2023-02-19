@@ -3,6 +3,7 @@ Trying to mimic a banking application's API using Spring Boot &amp; Hibernate
 
 ### **Open Bank Acccount**<br>
 Endpoint: `POST localhost:8080/accounts/open-bank-account`
+<br>
 Sample Payload: 
 ```
 {
@@ -20,6 +21,7 @@ Endpoint: `GET localhost:8080/accounts`
 
 ### **Deposit Money**<br>
 Endpoint: `POST localhost:8080/deposits`
+<br>
 Sample Payload: 
 ```
 {
@@ -32,6 +34,7 @@ Sample Payload:
 
 ### **Withdraw Money**
 Endpoint: `POST localhost:8080/withdrawals`
+<br>
 Sample Payload: 
 ```
 {
@@ -45,6 +48,7 @@ Sample Payload:
 
 ### **Transfer Money**<br>
 Endpoint: `POST localhost:8080/transfers`
+<br>
 Sample Payload: 
 ```
 {
