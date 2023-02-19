@@ -1,7 +1,7 @@
 # springboot-bank-api
 Trying to mimic a banking application's API using Spring Boot &amp; Hibernate
 
-**Open Bank Acccount**<br>
+### **Open Bank Acccount**<br>
 Endpoint: `POST localhost:8080/accounts/open-bank-account
 Sample Payload: 
 ```
@@ -14,11 +14,11 @@ Sample Payload:
 ```
 
 
-**Get Bank Acccount**<br>
+### **Get Bank Acccount**<br>
 Endpoint: `GET localhost:8080/accounts`
 
 
-**Deposit Money**<br>
+### **Deposit Money**<br>
 Endpoint: `POST localhost:8080/deposits
 Sample Payload: 
 ```
@@ -30,7 +30,7 @@ Sample Payload:
 ```
 
 
-**Withdraw Money**<br>
+### **Withdraw Money**<br>
 Endpoint: `POST localhost:8080/withdrawals
 Sample Payload: 
 ```
@@ -43,7 +43,7 @@ Sample Payload:
 ```
 
 
-**Transfer Money**<br>
+### **Transfer Money**<br>
 Endpoint: `POST localhost:8080/transfers
 Sample Payload: 
 ```
